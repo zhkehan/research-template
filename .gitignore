@@ -1,0 +1,30 @@
+# Data — never commit
+raw/
+parquet/
+*.parquet
+*.sas7bdat
+*.csv
+*.dta
+
+# Large files
+*.zip
+*.gz
+
+# DuckDB database
+*.duckdb
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude temp files
+.claude/_ctx_*.tmp
+.claude/session-state.md
