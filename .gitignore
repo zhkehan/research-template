@@ -1,0 +1,31 @@
+# Data — never commit
+data/
+*.dta
+*.dta.gz
+*.parquet
+*.sas7bdat
+*.csv
+
+# Large files
+*.zip
+*.gz
+
+# Logs
+*.log
+*.smcl
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude temp files
+.claude/_ctx_*.tmp
+.claude/session-state.md
